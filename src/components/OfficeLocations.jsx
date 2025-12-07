@@ -39,7 +39,7 @@ const OfficeLocations = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-5xl lg:text-5xl font-bold text-blue mb-4">
-            PFEC Global{" "}
+            INSAF Global{" "}
             <span className="text-transparent bg-clip-text bg-linear-to-r from-[#c3a25d] to-[#d4b86b]">
               Offices in Bangladesh
             </span>

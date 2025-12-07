@@ -93,7 +93,7 @@ const WhyChooseUs = () => {
       <div className="container mx-auto px-6 lg:px-8 max-w-7xl relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-[#283e77] mb-4">
-            Why Choose <span className="text-[#c3a25d]">PFEC Global</span>?
+            Why Choose <span className="text-[#c3a25d]">INSAF Global</span>?
           </h2>
           <p className="text-lg text-gray-600 max-w-md mx-auto leading-[1.1]">
             Trusted by thousands of students worldwide. Your dream of studying
