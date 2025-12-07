@@ -11,7 +11,7 @@ const Header = () => {
     {
       id: 1,
       title: "About us",
-      url: "/about-us",
+      url: "/",
       child: [
         {
           id: 11,

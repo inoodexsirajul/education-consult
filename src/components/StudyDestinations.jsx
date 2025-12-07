@@ -138,26 +138,6 @@ const StudyDestinations = () => {
           </a>
         </div>
       </div>
-
-      {/* Custom Pagination Style */}
-      <style jsx>{`
-        .study-destination-swiper .swiper-pagination {
-          bottom: -30px !important;
-        }
-        .study-destination-swiper .swiper-pagination-bullet {
-          width: 12px;
-          height: 12px;
-          background: transparent;
-          border: 2px solid #c3a25d;
-          opacity: 0.4;
-          transition: all 0.3s;
-        }
-        .study-destination-swiper .swiper-pagination-bullet-active {
-          background: #c3a25d;
-          opacity: 1;
-          transform: scale(1.3);
-        }
-      `}</style>
     </section>
   );
 };

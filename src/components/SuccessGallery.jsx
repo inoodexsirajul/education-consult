@@ -45,27 +45,25 @@ const SuccessGallery = () => {
       <div className="container mx-auto px-6 lg:px-8 max-w-7xl relative z-10">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-6xl lg:text-8xl font-black text-[#283e77] mb-4">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#c3a25d] via-[#d4b86b] to-[#c3a25d]">
+          <h2 className="text-6xl lg:text-8xl font-black text-blue mb-4">
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-[#c3a25d] via-[#d4b86b] to-gold">
               {count.toLocaleString()}+
             </span>
           </h2>
-          <p className="text-3xl lg:text-5xl font-bold text-[#283e77]/90">
+          <p className="text-3xl lg:text-5xl font-bold text-blue/90">
             Success Stories
           </p>
-          <p className="mt-4 text-xl lg:text-2xl text-[#283e77]/70 font-medium">
+          <p className="mt-4 text-xl lg:text-2xl text-blue/70 font-medium">
             You could be the next
           </p>
         </div>
 
         {/* Image Only Slider */}
         <Swiper
-          modules={[Autoplay, EffectFade]}
+          modules={[Autoplay]}
           spaceBetween={30}
-          slidesPerView={1}
+          slidesPerView={3}
           loop={true}
-          effect="fade"
-          fadeEffect={{ crossFade: true }}
           autoplay={{
             delay: 3000,
             disableOnInteraction: false,
@@ -79,11 +77,11 @@ const SuccessGallery = () => {
                 <img
                   src={img}
                   alt={`Success story ${index + 1}`}
-                  className="w-full h-[500px] lg:h-[650px] object-cover transition-transform duration-1000 group-hover:scale-110"
+                  className="w-full  object-cover transition-transform duration-1000 group-hover:scale-110"
                 />
 
                 {/* Dark Overlay + Gold Border on Hover */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
 
                 {/* Golden Border Glow */}
                 <div className="absolute inset-0 rounded-3xl ring-4 ring-transparent group-hover:ring-[#c3a25d]/50 transition-all duration-700" />

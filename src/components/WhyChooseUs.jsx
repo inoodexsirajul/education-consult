@@ -56,25 +56,29 @@ const WhyChooseUs = () => {
       icon: Users,
       value: `${counters.students.toLocaleString()}+`,
       label: "Students Assisted",
-      color: "from-[#c3a25d]/20 to-[#c3a25d]/5",
+      // color: "from-[#c3a25d]/20 to-[#c3a25d]/5",
+      color: "bg-blue",
     },
     {
       icon: Building2,
       value: `${counters.institutions}+`,
       label: "Partner Institutions",
-      color: "from-[#283e77]/20 to-[#283e77]/5",
+      // color: "from-[#283e77]/20 to-[#283e77]/5",
+      color: "bg-blue",
     },
     {
       icon: Trophy,
       value: `${counters.visaRate.toFixed(1)}%`,
       label: "Visa Success Rate",
-      color: "from-emerald-500/20 to-emerald-500/5",
+      // color: "from-emerald-500/20 to-emerald-500/5",
+      color: "bg-blue",
     },
     {
       icon: Sparkles,
       value: `${counters.years}+`,
       label: "Years of Expertise",
-      color: "from-purple-500/20 to-purple-500/5",
+      // color: "from-purple-500/20 to-purple-500/5",
+      color: "bg-blue",
     },
   ];
 
@@ -91,7 +95,7 @@ const WhyChooseUs = () => {
           <h2 className="text-4xl lg:text-5xl font-bold text-[#283e77] mb-4">
             Why Choose <span className="text-[#c3a25d]">PFEC Global</span>?
           </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-md mx-auto leading-[1.1]">
             Trusted by thousands of students worldwide. Your dream of studying
             abroad starts with proven success.
           </p>
@@ -107,7 +111,7 @@ const WhyChooseUs = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#c3a25d]/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
 
               <div
-                className={`absolute inset-0 bg-gradient-to-br ${stat.color} opacity-60 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl`}
+                className={`absolute inset-0 bg-gradient-to-br ${stat.color}   group-hover:opacity-100 transition-opacity duration-500 rounded-3xl`}
               ></div>
 
               <div className="relative z-10 text-center">
@@ -115,10 +119,10 @@ const WhyChooseUs = () => {
                   <stat.icon className="w-10 h-10 text-[#c3a25d] group-hover:scale-110 transition-transform duration-300" />
                 </div>
 
-                <h3 className="text-4xl lg:text-5xl font-bold text-[#283e77] mb-2">
+                <h3 className="text-4xl lg:text-5xl font-bold  text-white mb-2">
                   {stat.value}
                 </h3>
-                <p className="text-gray-600 font-medium text-lg">
+                <p className="text-white/80 font-medium text-lg">
                   {stat.label}
                 </p>
               </div>

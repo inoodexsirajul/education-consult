@@ -17,7 +17,7 @@ const Home = () => {
       <StudyDestinations />
       {/* <StudyAbroadSteps /> */}
       <AwardsSection />
-      {/* <SuccessGallery /> */}
+      <SuccessGallery />
 
       <StudyAbroadTimeline />
       <WhyChooseUs />

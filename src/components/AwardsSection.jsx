@@ -128,22 +128,6 @@ const AwardsSection = () => {
           </a>
         </div>
       </div>
-
-      {/* Custom Swiper Styles */}
-      <style jsx>{`
-        .awards-swiper .swiper-pagination-bullet {
-          background: transparent;
-          border: 2px solid #c3a25d;
-          opacity: 0.5;
-          width: 12px;
-          height: 12px;
-        }
-        .awards-swiper .swiper-pagination-bullet-active {
-          background: #c3a25d;
-          opacity: 1;
-          transform: scale(1.3);
-        }
-      `}</style>
     </section>
   );
 };
