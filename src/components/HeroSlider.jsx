@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import slide1 from "../assets/slider/slider2.png";
 import slide2 from "../assets/slider/slider3.png";
 import slide3 from "../assets/slider/slider4.png";
-import { Pagination } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 import slidesvg from "../assets/slider/sliderSvg.svg";
 import { RiShieldStarFill } from "react-icons/ri";
 import "swiper/css";
@@ -14,7 +14,7 @@ const HeroSlider = () => {
     <>
       <div className="swiper w-full h-full mt-[50px] sm:mt-[61px] xl:mt-[79px] homeSlider">
         <Swiper
-          modules={[Pagination]}
+          modules={[Pagination, Autoplay]}
           spaceBetween={0}
           slidesPerView={1}
           pagination={{
@@ -23,7 +23,7 @@ const HeroSlider = () => {
             type: "bullets",
           }}
           loop={true}
-          autoplay={{ delay: 5000 }}
+          autoplay={{ delay: 3000 }}
           className="homeSlider"
         >
           <SwiperSlide>
@@ -92,13 +92,13 @@ const HeroSlider = () => {
                 <div
                   data-aos="fade-right"
                   data-aos-duration="700"
-                  className="flex max-w-[500px] xl:max-w-[585px] mx-auto lg:mx-0 justify-center lg:justify-start items-center lg:items-start flex-col gap-5 sm:gap-[30px] xl:gap-10"
+                  className="flex max-w-[500px] xl:max-w-[585px] mx-auto lg:mx-0 justify-center lg:justify-start items-center lg:items-start flex-col gap-5 sm:gap-2.5 xl:gap-10"
                 >
-                  <div className="flex flex-col gap-5 sm:gap-[30px]">
+                  <div className="flex flex-col gap-5 sm:gap-[10px]">
                     <div className="flex flex-col gap-5">
                       <div className="flex justify-center lg:justify-start items-center lg:items-start gap-2">
-                        <i className="text-secondary-light text-subtitle2 sm:text-subtitle1 font-subtitle1 ri-shield-star-fill"></i>
-                        <p className="font-medium text-lg">
+                        <RiShieldStarFill className="mt-1" />
+                        <p className="font-medium text-lg ">
                           Plan Your dream trip with us
                         </p>
                       </div>
@@ -115,7 +115,7 @@ const HeroSlider = () => {
                         />
                       </div>
                     </div>
-                    <p className="text-center lg:text-left text-body1 font-body1 text-textColor-light">
+                    <p className="text-center lg:text-left text-[19px]  font-body1 text-textColor-light">
                       Lorem ipsum dolor sit amet consectetur. Elementum massa
                       risus euismod semper fringilla tristique viverra urna
                       metus. Egestas eleifend ultrices lacus fringilla vivamus
@@ -130,64 +130,7 @@ const HeroSlider = () => {
                       Learn More
                     </a>
                     <a
-                      className="py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px] text-subtitle3 sm:text-subtitle2 lg:text-subtitle1 font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 rounded-[20px] border-[2px] border-primary-light text-primary-light hover:text-white hover:bg-primary-light transition-all duration-300 ease-in"
-                      href="  "
-                    >
-                      Apply Now
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div
-              className={`swiper-slide w-full h-full py-[119px] sm:py-[118px] xl:py-[133px] bg-cover bg-center  `}
-              style={{ backgroundImage: `url(${slide3})` }}
-            >
-              <div className="container">
-                <div
-                  data-aos="fade-right"
-                  data-aos-duration="700"
-                  className="flex max-w-[500px] xl:max-w-[585px] mx-auto lg:mx-0 justify-center lg:justify-start items-center lg:items-start flex-col gap-5 sm:gap-2.5 xl:gap-4"
-                >
-                  <div className="flex flex-col gap-5 sm:gap-0">
-                    <div className="flex flex-col ">
-                      <div className="flex justify-center lg:justify-start items-center lg:items-start gap-2">
-                        <i className="text-secondary-light text-subtitle2 sm:text-subtitle1 font-subtitle1 ri-shield-star-fill"></i>
-                        <p className="font-medium text-lg">
-                          Plan Your dream trip with us
-                        </p>
-                      </div>
-                      <div className="flex flex-col gap-[9px] mb-0">
-                        <h1 className="text-center lg:text-left text-[58px] font-bold leading-[1.1]">
-                          Submit Your
-                          <span className="text-gold"> Visa</span> Application
-                        </h1>
-
-                        <img
-                          className="max-w-full"
-                          src={slidesvg}
-                          alt="lineA.svg"
-                        />
-                      </div>
-                    </div>
-                    <p className="text-center lg:text-left text-body1 text-lg text-white">
-                      Lorem ipsum dolor sit amet consectetur. Elementum massa
-                      risus euismod semper fringilla tristique viverra urna
-                      metus. Egestas eleifend ultrices lacus fringilla vivamus
-                      nisl diam auctor.
-                    </p>
-                  </div>
-                  <div className="flex gap-5 justify-start items-center">
-                    <a
                       className="py-2.5 sm:py-3 lg:py-3.5 px-3.5 sm:px-4 lg:px-[18px] text-subtitle3 sm:text-subtitle2 lg:text-subtitle1 font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 rounded-[20px] border-2 border-primary-light text-primary-light hover:text-white hover:bg-primary-light transition-all duration-300 ease-in"
-                      href="  "
-                    >
-                      Learn More
-                    </a>
-                    <a
-                      className="py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px] text-subtitle3 sm:text-subtitle2 lg:text-subtitle1 font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 rounded-[20px] border-[2px] border-primary-light text-primary-light hover:text-white hover:bg-primary-light transition-all duration-300 ease-in"
                       href="  "
                     >
                       Apply Now
