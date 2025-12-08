@@ -44,7 +44,7 @@ const Services = () => {
           {/* Left Side - Text */}
           <div className="order-2 lg:order-1 text-center lg:text-left">
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              How INSAF Global Simplifies your
+              How INSAF Immigration Simplifies your
               <span className="text-gold"> Study Abroad Journey?</span>
             </h2>
             <p className="mt-6 text-lg text-gray-600 leading-relaxed">

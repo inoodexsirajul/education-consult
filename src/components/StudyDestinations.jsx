@@ -42,7 +42,7 @@ const StudyDestinations = () => {
             Gain Access to Top Institutions across the Globe
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            PFEC Global is a partner of renowned institutions across{" "}
+            INSAF Immigration is a partner of renowned institutions across{" "}
             <span className="font-semibold text-gold">11 countries</span>.
             <br className="hidden sm:block" />
             Pick a destination below and learn everything you need to make an
