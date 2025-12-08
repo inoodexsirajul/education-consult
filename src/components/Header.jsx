@@ -149,7 +149,7 @@ const Header = () => {
                     <div className="flex py-5 xl:py-[30px] group items-center justify-center gap-1">
                       <Link
                         to={`${navItem?.url}`}
-                        className="text-black capitalize text-md font-normal font-body group-hover:text-primary-light transition-all duration-300 ease-in"
+                        className="text-black capitalize text-lg font-normal font-body group-hover:text-primary-light transition-all duration-300 ease-in"
                       >
                         {navItem.title}
                       </Link>

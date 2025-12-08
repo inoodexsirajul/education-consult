@@ -35,9 +35,9 @@ const HeroSlider = () => {
                 <div
                   data-aos="fade-right"
                   data-aos-duration="700"
-                  className="flex max-w-[500px] xl:max-w-[585px] mx-auto lg:mx-0 justify-center lg:justify-start items-center lg:items-start flex-col gap-5 sm:gap-[30px] xl:gap-10"
+                  className="flex max-w-[500px] xl:max-w-[585px] mx-auto lg:mx-0 justify-center lg:justify-start items-center lg:items-start flex-col gap-5 sm:gap-2.5 xl:gap-10"
                 >
-                  <div className="flex flex-col gap-5 sm:gap-[30px]">
+                  <div className="flex flex-col gap-5 sm:gap-[10px]">
                     <div className="flex flex-col gap-5">
                       <div className="flex justify-center lg:justify-start items-center lg:items-start gap-2">
                         <RiShieldStarFill className="mt-1" />
@@ -58,7 +58,7 @@ const HeroSlider = () => {
                         />
                       </div>
                     </div>
-                    <p className="text-center lg:text-left text-body1 font-body1 text-textColor-light">
+                    <p className="text-center lg:text-left text-[19px]  font-body1 text-textColor-light">
                       Lorem ipsum dolor sit amet consectetur. Elementum massa
                       risus euismod semper fringilla tristique viverra urna
                       metus. Egestas eleifend ultrices lacus fringilla vivamus
@@ -149,17 +149,17 @@ const HeroSlider = () => {
                 <div
                   data-aos="fade-right"
                   data-aos-duration="700"
-                  className="flex max-w-[500px] xl:max-w-[585px] mx-auto lg:mx-0 justify-center lg:justify-start items-center lg:items-start flex-col gap-5 sm:gap-[30px] xl:gap-10"
+                  className="flex max-w-[500px] xl:max-w-[585px] mx-auto lg:mx-0 justify-center lg:justify-start items-center lg:items-start flex-col gap-5 sm:gap-2.5 xl:gap-4"
                 >
-                  <div className="flex flex-col gap-5 sm:gap-[30px]">
-                    <div className="flex flex-col gap-5">
+                  <div className="flex flex-col gap-5 sm:gap-0">
+                    <div className="flex flex-col ">
                       <div className="flex justify-center lg:justify-start items-center lg:items-start gap-2">
                         <i className="text-secondary-light text-subtitle2 sm:text-subtitle1 font-subtitle1 ri-shield-star-fill"></i>
                         <p className="font-medium text-lg">
                           Plan Your dream trip with us
                         </p>
                       </div>
-                      <div className="flex flex-col gap-[9px]">
+                      <div className="flex flex-col gap-[9px] mb-0">
                         <h1 className="text-center lg:text-left text-[58px] font-bold leading-[1.1]">
                           Submit Your
                           <span className="text-gold"> Visa</span> Application
@@ -172,7 +172,7 @@ const HeroSlider = () => {
                         />
                       </div>
                     </div>
-                    <p className="text-center lg:text-left text-body1 font-body1 text-textColor-light">
+                    <p className="text-center lg:text-left text-body1 text-lg text-white">
                       Lorem ipsum dolor sit amet consectetur. Elementum massa
                       risus euismod semper fringilla tristique viverra urna
                       metus. Egestas eleifend ultrices lacus fringilla vivamus
