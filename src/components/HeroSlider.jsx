@@ -17,18 +17,21 @@ const HeroSlider = () => {
           modules={[Pagination, Autoplay]}
           spaceBetween={0}
           slidesPerView={1}
+          speed={1000}
+          transition={{ duration: 1500 }}
           pagination={{
             clickable: true,
             el: ".swiper-pagination",
             type: "bullets",
           }}
           loop={true}
-          autoplay={{ delay: 3000 }}
+          // autoplay={{ delay: 3000 }}
+          autoplay={false}
           className="homeSlider"
         >
           <SwiperSlide>
             <div
-              className={`swiper-slide w-full h-full py-[119px] sm:py-[118px] xl:py-[133px] bg-cover bg-center  `}
+              className={`swiper-slide w-full h-full py-[119px] sm:py-[118px] xl:py-[90px] 2xl:py-[133px] bg-cover bg-center  `}
               style={{ backgroundImage: `url(${slide1})` }}
             >
               <div className="container">
@@ -85,7 +88,7 @@ const HeroSlider = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div
-              className={`swiper-slide w-full h-full py-[119px] sm:py-[118px] xl:py-[133px] bg-cover bg-center  `}
+              className={`swiper-slide w-full h-full py-[119px] sm:py-[118px] xl:py-[90px] 2xl:py-[133px] bg-cover bg-center  `}
               style={{ backgroundImage: `url(${slide2})` }}
             >
               <div className="container">
