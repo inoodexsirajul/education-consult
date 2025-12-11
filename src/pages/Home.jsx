@@ -8,6 +8,7 @@ import StudyAbroadTimeline from "../components/StudyAbroadTimeline";
 import AwardsSection from "../components/AwardsSection";
 import SuccessGallery from "../components/SuccessGallery";
 import HomeBlogs from "../components/HomeBlogs";
+import CounselingSection from "../components/CounselingSection";
 
 const Home = () => {
   return (
@@ -15,13 +16,13 @@ const Home = () => {
       <HeroSlider />
       <Services />
       <StudyDestinations />
-      {/* <StudyAbroadSteps /> */}
+      <StudyAbroadSteps />
       <AwardsSection />
       <SuccessGallery />
-
       <StudyAbroadTimeline />
       <WhyChooseUs />
       <HomeBlogs />
+      <CounselingSection />
     </>
   );
 };

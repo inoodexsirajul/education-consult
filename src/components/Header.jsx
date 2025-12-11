@@ -11,22 +11,22 @@ const Header = () => {
     {
       id: 1,
       title: "About us",
-      url: "/",
+      url: "/about-insaf",
       child: [
         {
           id: 11,
           title: "Award and Achievement",
-          url: "/",
+          url: "/award-and-achievement",
         },
         {
           id: 12,
           title: "Our leadership Team",
-          url: "/",
+          url: "/leadership-team",
         },
         {
           id: 13,
           title: "Testimonials",
-          url: "/",
+          url: "/testimonials",
         },
       ],
     },
@@ -94,7 +94,7 @@ const Header = () => {
     {
       id: 5,
       title: "Scholarships",
-      url: "/",
+      url: "/scholarship",
       child: [
         {
           id: 51,

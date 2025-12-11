@@ -8,6 +8,7 @@ import dest4 from "../assets/destinations/indonesia.webp";
 import dest5 from "../assets/destinations/ireland.png";
 import dest6 from "../assets/destinations/uk.png";
 import dest7 from "../assets/destinations/usa.png";
+import CounselingSection from "../components/CounselingSection";
 const destinations = [
   { country: "Australia", landmark: dest1, delay: 0 },
   { country: "UK", landmark: dest2, delay: 100 },
@@ -19,19 +20,19 @@ const destinations = [
   { country: "Malaysia", landmark: dest3, delay: 300 },
 ];
 
-export default function Destination() {
+export default function Scholarship() {
   return (
     <>
       <section className="py-24 px-6 bg-linear-to-b from-white to-slate-50 overflow-hidden">
         <div className="max-w-7xl mx-auto">
           {/* Header with Decorative Lines */}
-          <div className="text-center mb-16 relative">
+          <div className="text-center mb-16 relative bg-linear-to-b to-blue ">
             <div className="absolute inset-0 flex items-center justify-center opacity-10">
               <GraduationCap className="w-32 h-32 text-blue" />
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold text-blue mb-4 relative">
-              Study Abroad with{" "}
+              Explore Scholarships with
               <span className="text-gold">INSAF Immigration</span>
             </h2>
             <p className="text-2xl font-semibold text-gray-800 mb-3">
@@ -41,9 +42,7 @@ export default function Destination() {
               Your Gateway to World-Class Education – Explore Top Study
               Destinations with INSAF Immigration
             </p>
-
             {/* Decorative wavy line */}
-
             <svg
               className="w-full max-w-2xl mx-auto mt-8 opacity-30"
               viewBox="0 0 800 100"
@@ -107,8 +106,9 @@ export default function Destination() {
           </div>
         </div>
       </section>
-      <WhyStudyAbroad />
-      <FactorsToConsider />
+      <CounselingSection />
+      {/* <WhyStudyAbroad />
+      <FactorsToConsider /> */}
     </>
   );
 }

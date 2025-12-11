@@ -4,6 +4,11 @@ import MainLayout from "./components/MainLayout";
 import Home from "./pages/Home";
 import Destination from "./pages/Destination";
 import StudyInDestination from "./pages/StudyInDestination";
+import Scholarship from "./pages/Scholarship";
+import AboutInsaf from "./pages/AboutInsaf";
+import AwardAndAchievement from "./pages/AwardAndAchievement";
+import LeadershipTeam from "./pages/LeadershipTeam";
+import Testimonials from "./pages/Testimonials";
 
 const App = () => {
   function ScrollToTop() {
@@ -21,11 +26,19 @@ const App = () => {
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
+          <Route path="about-insaf" element={<AboutInsaf />} />
+          <Route
+            path="award-and-achievement"
+            element={<AwardAndAchievement />}
+          />
+          <Route path="leadership-team" element={<LeadershipTeam />} />
+          <Route path="testimonials" element={<Testimonials />} />
           <Route path="destination" element={<Destination />} />
           <Route
             path="destination/study-in-destination"
             element={<StudyInDestination />}
           />
+          <Route path="scholarship" element={<Scholarship />} />
         </Route>
       </Routes>
     </>

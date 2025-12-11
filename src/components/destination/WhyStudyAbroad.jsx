@@ -30,15 +30,15 @@ const reasons = [
 
 export default function WhyStudyAbroad() {
   return (
-    <section className="py-24 px-6 bg-gradient-to-br from-slate-50 via-white to-blue-50">
+    <section className="py-24 px-6 bg-linear-to-br from-slate-50 via-white to-blue-50">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left: Reasons List */}
           <div className="space-y-10">
             <div className="text-left">
-              <h2 className="text-4xl md:text-5xl font-bold text-[#283e77] leading-tight">
-                5 Reasons Why Studying Abroad is a{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#283e77] to-[#c3a25d]">
+              <h2 className="text-4xl md:text-5xl font-bold text-blue leading-tight">
+                5 Reasons Why Studying Abroad is a
+                <span className="text-transparent bg-clip-text bg-linear-to-r from-blue to-gold">
                   Great Decision
                 </span>
               </h2>
@@ -53,15 +53,15 @@ export default function WhyStudyAbroad() {
                     className="group flex gap-6 items-start transform transition-all duration-500 hover:translate-x-4"
                   >
                     {/* Icon Circle */}
-                    <div className="flex-shrink-0 w-16 h-16 rounded-full bg-gradient-to-br from-[#283e77] to-[#c3a25d] p-[3px]">
+                    <div className="shrink-0 w-16 h-16 rounded-full bg-linear-to-br from-blue to-gold p-[3px]">
                       <div className="w-full h-full rounded-full bg-white flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                        <Icon className="w-8 h-8 text-[#283e77]" />
+                        <Icon className="w-8 h-8 text-blue" />
                       </div>
                     </div>
 
                     {/* Text */}
                     <div className="flex-1">
-                      <h3 className="text-xl font-bold text-[#283e77] mb-2 group-hover:text-[#c3a25d] transition-colors">
+                      <h3 className="text-xl font-bold text-blue mb-2 group-hover:text-gold transition-colors">
                         {reason.title}
                       </h3>
                       <p className="text-gray-600 leading-relaxed">
@@ -78,7 +78,7 @@ export default function WhyStudyAbroad() {
           <div className="relative flex justify-center lg:justify-end">
             <div className="relative">
               {/* Decorative Background Shape */}
-              <div className="absolute -inset-8 bg-gradient-to-br from-[#283e77]/10 to-[#c3a25d]/10 rounded-3xl blur-3xl -z-10" />
+              <div className="absolute -inset-8 bg-linear-to-br from-blue/10 to-[#c3a25d]/10 rounded-3xl blur-3xl -z-10" />
 
               {/* Main Image (Replace with your actual image) */}
               <div className="relative overflow-hidden rounded-3xl shadow-2xl">
@@ -89,14 +89,14 @@ export default function WhyStudyAbroad() {
                 />
 
                 {/* Gold Frame Corners */}
-                <div className="absolute top-0 left-0 w-24 h-24 border-l-8 border-t-8 border-[#c3a25d] rounded-tl-3xl" />
-                <div className="absolute top-0 right-0 w-24 h-24 border-r-8 border-t-8 border-[#c3a25d] rounded-tr-3xl" />
-                <div className="absolute bottom-0 left-0 w-24 h-24 border-l-8 border-b-8 border-[#c3a25d] rounded-bl-3xl" />
-                <div className="absolute bottom-0 right-0 w-24 h-24 border-r-8 border-b-8 border-[#c3a25d] rounded-br-3xl" />
+                <div className="absolute top-0 left-0 w-24 h-24 border-l-8 border-t-8 border-gold rounded-tl-3xl" />
+                <div className="absolute top-0 right-0 w-24 h-24 border-r-8 border-t-8 border-gold rounded-tr-3xl" />
+                <div className="absolute bottom-0 left-0 w-24 h-24 border-l-8 border-b-8 border-gold rounded-bl-3xl" />
+                <div className="absolute bottom-0 right-0 w-24 h-24 border-r-8 border-b-8 border-gold rounded-br-3xl" />
               </div>
 
               {/* Floating Badge */}
-              <div className="absolute -top-6 -left-6 bg-[#283e77] text-white px-6 py-3 rounded-full font-bold shadow-xl flex items-center gap-2">
+              <div className="absolute -top-6 -left-6 bg-blue text-white px-6 py-3 rounded-full font-bold shadow-xl flex items-center gap-2">
                 <GraduationCap className="w-6 h-6" />
                 Dream Big
               </div>
