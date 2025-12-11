@@ -9,6 +9,7 @@ import AboutInsaf from "./pages/AboutInsaf";
 import AwardAndAchievement from "./pages/AwardAndAchievement";
 import LeadershipTeam from "./pages/LeadershipTeam";
 import Testimonials from "./pages/Testimonials";
+import ContactPage from "./pages/ContactPage";
 
 const App = () => {
   function ScrollToTop() {
@@ -39,6 +40,7 @@ const App = () => {
             element={<StudyInDestination />}
           />
           <Route path="scholarship" element={<Scholarship />} />
+          <Route path="contact-us" element={<ContactPage />} />
         </Route>
       </Routes>
     </>

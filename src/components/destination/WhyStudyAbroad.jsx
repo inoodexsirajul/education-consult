@@ -36,9 +36,9 @@ export default function WhyStudyAbroad() {
           {/* Left: Reasons List */}
           <div className="space-y-10">
             <div className="text-left">
-              <h2 className="text-4xl md:text-5xl font-bold text-blue leading-tight">
+              <h2 className="text-4xl md:text-4xl font-bold font-mont text-blue leading-tight">
                 5 Reasons Why Studying Abroad is a
-                <span className="text-transparent bg-clip-text bg-linear-to-r from-blue to-gold">
+                <span className="text-transparent  bg-clip-text bg-linear-to-r from-blue to-gold">
                   Great Decision
                 </span>
               </h2>
@@ -61,10 +61,10 @@ export default function WhyStudyAbroad() {
 
                     {/* Text */}
                     <div className="flex-1">
-                      <h3 className="text-xl font-bold text-blue mb-2 group-hover:text-gold transition-colors">
+                      <h3 className="text-xl font-bold font-mont text-blue mb-2 group-hover:text-gold transition-colors">
                         {reason.title}
                       </h3>
-                      <p className="text-gray-600 leading-relaxed">
+                      <p className="text-gray-600 font-mont leading-relaxed">
                         {reason.desc}
                       </p>
                     </div>

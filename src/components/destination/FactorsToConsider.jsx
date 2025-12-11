@@ -29,9 +29,9 @@ export default function FactorsToConsider() {
     <section className="py-20 px-6 bg-gradient-to-br from-white to-slate-50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold text-[#283e77] mb-4">
+          <h2 className="text-3xl md:text-4xl 2xl:max-w-xl mx-auto font-mont font-bold text-[#283e77] mb-4">
             Factors to{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#c3a25d] to-[#283e77]">
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-gold] to-blue">
               Consider
             </span>{" "}
             Before You Decide to Study Abroad
@@ -49,9 +49,9 @@ export default function FactorsToConsider() {
                 className="w-full h-96 object-cover rounded-2xl shadow-2xl"
               />
               {/* Gold Frame Accents */}
-              <div className="absolute -inset-2 bg-gradient-to-r from-[#c3a25d]/20 to-[#283e77]/20 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity" />
-              <div className="absolute top-4 left-4 w-20 h-20 border-4 border-[#c3a25d] rounded-full" />
-              <div className="absolute bottom-4 right-4 w-16 h-16 border-4 border-[#283e77] rounded-full" />
+              <div className="absolute -inset-2 bg-linear-to-r from-[#c3a25d]/20 to-blue/20 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-opacity" />
+              <div className="absolute top-4 left-4 w-20 h-20 border-4 border-gold rounded-full" />
+              <div className="absolute bottom-4 right-4 w-16 h-16 border-4 border-blue rounded-full" />
             </div>
           </div>
 
@@ -62,23 +62,25 @@ export default function FactorsToConsider() {
               return (
                 <div
                   key={index}
-                  className="group relative bg-white border border-[#283e77]/10 rounded-2xl p-6 hover:shadow-xl transition-all duration-500 hover:border-[#c3a25d]/30 transform hover:-translate-y-2"
+                  className="group relative bg-white border border-blue/10 rounded-2xl p-6 hover:shadow-xl transition-all duration-500 hover:border-gold/30 transform hover:-translate-y-2"
                 >
                   {/* Icon */}
                   <div className="flex items-center gap-4 mb-4">
-                    <div className="p-3 bg-gradient-to-br from-[#c3a25d] to-[#283e77] rounded-xl text-white shadow-lg">
+                    <div className="p-3 bg-linear-to-br from-gold to-blue rounded-xl text-white shadow-lg">
                       <Icon className="w-6 h-6" />
                     </div>
-                    <h3 className="text-xl font-bold text-[#283e77] group-hover:text-[#c3a25d]">
+                    <h3 className="text-xl font-bold font-mont text-blue group-hover:text-gold">
                       {factor.title}
                     </h3>
                   </div>
 
                   {/* Description */}
-                  <p className="text-gray-600 leading-relaxed">{factor.desc}</p>
+                  <p className="text-gray-600 font-mont leading-relaxed">
+                    {factor.desc}
+                  </p>
 
                   {/* Hover Reveal Line */}
-                  <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-[#c3a25d] to-[#283e77] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
+                  <div className="absolute bottom-0 left-0 w-full h-1 bg-linear-to-r from-gold to-blue transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
                 </div>
               );
             })}

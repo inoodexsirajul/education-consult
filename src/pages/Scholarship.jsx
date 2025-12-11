@@ -1,6 +1,4 @@
 import { ArrowRight, GraduationCap } from "lucide-react";
-import WhyStudyAbroad from "../components/destination/WhyStudyAbroad";
-import FactorsToConsider from "../components/destination/FactorsToConsider";
 import dest1 from "../assets/destinations/australia.png";
 import dest2 from "../assets/destinations/canada.png";
 import dest3 from "../assets/destinations/detials1.webp";
@@ -9,6 +7,8 @@ import dest5 from "../assets/destinations/ireland.png";
 import dest6 from "../assets/destinations/uk.png";
 import dest7 from "../assets/destinations/usa.png";
 import CounselingSection from "../components/CounselingSection";
+import SuccessGallery from "./../components/SuccessGallery";
+import AboutScholarshipInsaf from "../components/scholarship/AboutScholarshipInsaf";
 const destinations = [
   { country: "Australia", landmark: dest1, delay: 0 },
   { country: "UK", landmark: dest2, delay: 100 },
@@ -107,8 +107,8 @@ export default function Scholarship() {
         </div>
       </section>
       <CounselingSection />
-      {/* <WhyStudyAbroad />
-      <FactorsToConsider /> */}
+      <SuccessGallery />
+      <AboutScholarshipInsaf />
     </>
   );
 }

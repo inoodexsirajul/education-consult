@@ -94,7 +94,7 @@ export default function VideoTestimonials() {
                 title="Student Testimonial"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-                className="absolute top-0 left-0 w-full h-full border-4 border-[#c3a25d] rounded-2xl"
+                className="absolute top-0 left-0 w-full h-full border-2 border-gold rounded-2xl"
               ></iframe>
             </div>
           </div>

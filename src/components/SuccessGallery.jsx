@@ -35,7 +35,7 @@ const SuccessGallery = () => {
   }, []);
 
   return (
-    <section className="py-24 lg:py-32 bg-gradient-to-br from-[#283e77]/5 via-white to-[#c3a25d]/5 overflow-hidden relative">
+    <section className="py-24 lg:py-22 bg-gradient-to-br from-[#283e77]/5 via-white to-[#c3a25d]/5 overflow-hidden relative">
       {/* Background Decoration */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-20 left-20 w-96 h-96 bg-[#c3a25d]/10 rounded-full blur-3xl animate-pulse"></div>
@@ -45,12 +45,12 @@ const SuccessGallery = () => {
       <div className="container mx-auto px-6 lg:px-8 max-w-7xl relative z-10">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-6xl lg:text-8xl font-black text-blue mb-4">
+          <h2 className="text-6xl lg:text-5xl font-black text-blue mb-4">
             <span className="text-transparent bg-clip-text bg-linear-to-r from-[#c3a25d] via-[#d4b86b] to-gold">
               {count.toLocaleString()}+
             </span>
           </h2>
-          <p className="text-3xl lg:text-5xl font-bold text-blue/90">
+          <p className="text-3xl lg:text-4xl font-bold text-blue/90">
             Success Stories
           </p>
           <p className="mt-4 text-xl lg:text-2xl text-blue/70 font-medium">

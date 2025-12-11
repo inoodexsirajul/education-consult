@@ -52,9 +52,9 @@ const StudyAbroadSteps = () => {
       <div className="container mx-auto px-6 lg:px-8 max-w-7xl">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-[#283e77] mb-4">
+          <h2 className="text-4xl lg:text-4xl font-bold text-blue mb-4">
             Study Abroad in Just{" "}
-            <span className="text-[#c3a25d]">5 Simple Steps</span>
+            <span className="text-gold">5 Simple Steps</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             With PFEC Global by your side, you can make the whole process a

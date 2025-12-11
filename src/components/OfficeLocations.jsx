@@ -34,11 +34,11 @@ const offices = [
 
 const OfficeLocations = () => {
   return (
-    <section className="py-20 lg:py-28 bg-linear-to-b from-white via-[#283e77]/5 to-white">
+    <section className="py-20 lg:py-28 bg-gray-200">
       <div className="container mx-auto px-6 lg:px-8 max-w-7xl">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl lg:text-5xl font-bold text-blue mb-4">
+          <h2 className="text-5xl lg:text-4xl font-bold text-blue mb-4">
             INSAF Immigration
             <span className="text-transparent ml-1 bg-clip-text bg-linear-to-r from-[#c3a25d] to-[#d4b86b]">
               Offices in Bangladesh

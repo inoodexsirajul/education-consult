@@ -83,20 +83,19 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <section className="py-20 lg:py-28 relative overflow-hidden bg-gradient-to-br from-[#283e77]/5 via-white to-[#c3a25d]/5">
+    <section className="py-20 lg:py-28 relative overflow-hidden bg-linear-to-br from-blue/5 via-white to-gold/5">
       {/* Background Decoration */}
       <div className="absolute inset-0 opacity-30">
-        <div className="absolute top-20 left-10 w-96 h-96 bg-[#c3a25d]/10 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-20 right-10 w-80 h-80 bg-[#283e77]/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-20 left-10 w-96 h-96 bg-gold/10 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-20 right-10 w-80 h-80 bg-blue/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
       </div>
 
       <div className="container mx-auto px-6 lg:px-8 max-w-7xl relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-[#283e77] mb-4">
-            Why Choose{" "}
-            <span className="text-[#c3a25d]">INSAF Immigration </span>?
+          <h2 className="text-4xl lg:text-5xl font-bold text-blue mb-4">
+            Why Choose <span className="text-gold">INSAF Immigration </span>?
           </h2>
-          <p className="text-lg text-gray-600 max-w-md mx-auto leading-[1.1]">
+          <p className="text-lg font-mont text-gray-600 max-w-lg mx-auto leading-[1.1]">
             Trusted by thousands of students worldwide. Your dream of studying
             abroad starts with proven success.
           </p>
@@ -162,11 +161,11 @@ const WhyChooseUs = () => {
         </div>
 
         <div className="text-center mt-10">
-          <p className="text-lg text-[#283e77]/80 font-medium">
+          <p className="text-lg text-blue/80 font-medium">
             Offices in{" "}
-            <span className="text-[#c3a25d] font-bold">4 Countries</span> •
+            <span className="text-gold font-mont font-bold">4 Countries</span> •
             Serving Students from{" "}
-            <span className="text-[#c3a25d] font-bold">30+ Nations</span>
+            <span className="text-gold font-mont font-bold">30+ Nations</span>
           </p>
         </div>
       </div>

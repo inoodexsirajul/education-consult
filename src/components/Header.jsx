@@ -121,7 +121,7 @@ const Header = () => {
     {
       id: 6,
       title: "Contact us",
-      url: "/",
+      url: "/contact-us",
     },
   ];
 
