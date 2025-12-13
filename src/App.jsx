@@ -10,6 +10,10 @@ import AwardAndAchievement from "./pages/AwardAndAchievement";
 import LeadershipTeam from "./pages/LeadershipTeam";
 import Testimonials from "./pages/Testimonials";
 import ContactPage from "./pages/ContactPage";
+import AdmissionSupport from "./pages/services/AdmissionSupport";
+import HealthInsurance from "./pages/services/HealthInsurance";
+import TermsOfUse from "./pages/TermsOfUse";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 const App = () => {
   function ScrollToTop() {
@@ -39,7 +43,11 @@ const App = () => {
             path="destination/study-in-destination"
             element={<StudyInDestination />}
           />
+          <Route path="admission-support" element={<AdmissionSupport />} />
+          <Route path="health-insurance" element={<HealthInsurance />} />
           <Route path="scholarship" element={<Scholarship />} />
+          <Route path="terms-of-use" element={<TermsOfUse />} />
+          <Route path="privacy-policy" element={<PrivacyPolicy />} />
           <Route path="contact-us" element={<ContactPage />} />
         </Route>
       </Routes>

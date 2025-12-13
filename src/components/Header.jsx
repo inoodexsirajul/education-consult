@@ -60,12 +60,12 @@ const Header = () => {
         {
           id: 31,
           title: "Admission Support",
-          url: "/",
+          url: "/admission-support",
         },
         {
           id: 32,
           title: "Health Insurance",
-          url: "/",
+          url: "/health-insurance",
         },
         {
           id: 33,

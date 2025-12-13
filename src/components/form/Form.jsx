@@ -16,7 +16,7 @@ const Form = () => {
               </label>
               <input
                 type="text"
-                className="w-full px-4 py-1.5 border border-gray-300 rounded-lg   focus:border-transparent transition"
+                className="w-full px-4 py-1.5 border border-gray-300 rounded-lg text-black  font-mont focus:border-transparent transition"
                 placeholder="John"
               />
             </div>
@@ -26,7 +26,7 @@ const Form = () => {
               </label>
               <input
                 type="text"
-                className="w-full px-4 py-1.5 border border-gray-300 rounded-lg   focus:border-transparent transition"
+                className="w-full px-4 py-1.5 border border-gray-300 rounded-lg text-black font-mont   focus:border-transparent transition"
                 placeholder="Doe"
               />
             </div>
@@ -38,7 +38,7 @@ const Form = () => {
             </label>
             <input
               type="email"
-              className="w-full px-4 py-1.5 border border-gray-300 rounded-lg   focus:border-transparent transition"
+              className="w-full px-4 py-1.5 border border-gray-300 rounded-lg text-black  font-mont  focus:border-transparent transition"
               placeholder="john.doe@example.com"
             />
           </div>
@@ -53,7 +53,7 @@ const Form = () => {
               </span>
               <input
                 type="tel"
-                className="flex-1 px-4 py-1.5 border border-gray-300 rounded-r-lg  focus:border-transparent transition"
+                className="flex-1 px-4 py-1.5 border border-gray-300 rounded-r-lg font-mont text-black   focus:border-transparent transition"
                 placeholder="1700 000 000"
               />
             </div>
@@ -63,7 +63,7 @@ const Form = () => {
             <label className="block text-sm font-mont font-medium text-gray-700 mb-2">
               Your Nearest PTECC Office
             </label>
-            <select className="w-full px-4 py-1.5 border text-blue border-gray-300 rounded-lg focus:border-transparent transition">
+            <select className="w-full px-4 py-1.5 border text-blue font-mont border-gray-300  rounded-lg focus:border-transparent transition">
               <option>Select office</option>
               <option>Dhaka</option>
               <option>Chattogram</option>
@@ -75,7 +75,7 @@ const Form = () => {
             <label className="block text-sm font-mont font-medium text-gray-700 mb-1">
               Your Preferred Study Destination
             </label>
-            <select className="w-full px-4 py-1.5 text-blue border border-gray-300 rounded-lg  focus:border-transparent transition">
+            <select className="w-full px-4 py-1.5 text-blue border font-mont border-gray-300 rounded-lg  focus:border-transparent transition">
               <option>Australia</option>
               <option>Canada</option>
               <option>UK</option>

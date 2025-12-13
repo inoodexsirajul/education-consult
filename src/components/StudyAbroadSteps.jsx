@@ -48,7 +48,7 @@ const steps = [
 
 const StudyAbroadSteps = () => {
   return (
-    <section className="py-20 lg:py-28 bg-gradient-to-b from-white to-[#283e77]/5 overflow-hidden">
+    <section className="py-20 lg:py-28 bg-linear-to-b from-white to-[#283e77]/5 overflow-hidden">
       <div className="container mx-auto px-6 lg:px-8 max-w-7xl">
         {/* Header */}
         <div className="text-center mb-16">

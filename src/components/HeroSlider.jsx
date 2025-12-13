@@ -2,7 +2,6 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import slide1 from "../assets/slider/slider2.png";
 import slide2 from "../assets/slider/slider3.png";
-import slide3 from "../assets/slider/slider4.png";
 import { Pagination, Autoplay } from "swiper/modules";
 import slidesvg from "../assets/slider/sliderSvg.svg";
 import { RiShieldStarFill } from "react-icons/ri";
