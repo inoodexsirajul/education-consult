@@ -70,12 +70,12 @@ const Header = () => {
         {
           id: 33,
           title: "Student Accomodation",
-          url: "/",
+          url: "/accomodation",
         },
         {
           id: 34,
           title: "Visa Service",
-          url: "/",
+          url: "/visa-service",
         },
       ],
     },
@@ -87,7 +87,7 @@ const Header = () => {
         {
           id: 41,
           title: "Blogs",
-          url: "/",
+          url: "/blogs",
         },
       ],
     },

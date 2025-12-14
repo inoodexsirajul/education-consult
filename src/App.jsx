@@ -14,6 +14,10 @@ import AdmissionSupport from "./pages/services/AdmissionSupport";
 import HealthInsurance from "./pages/services/HealthInsurance";
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Accomodation from "./pages/services/Accomodation";
+import VisaService from "./pages/services/VisaService";
+import BlogSection from "./pages/BlogPage";
+import BlogDetails from "./pages/BlogDetails";
 
 const App = () => {
   function ScrollToTop() {
@@ -45,10 +49,14 @@ const App = () => {
           />
           <Route path="admission-support" element={<AdmissionSupport />} />
           <Route path="health-insurance" element={<HealthInsurance />} />
+          <Route path="accomodation" element={<Accomodation />} />
+          <Route path="visa-service" element={<VisaService />} />
           <Route path="scholarship" element={<Scholarship />} />
           <Route path="scholarship/details" element={<StudyInDestination />} />
           <Route path="terms-of-use" element={<TermsOfUse />} />
           <Route path="privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="blogs" element={<BlogSection />} />
+          <Route path="blogs/blog-details" element={<BlogDetails />} />
           <Route path="contact-us" element={<ContactPage />} />
         </Route>
       </Routes>
