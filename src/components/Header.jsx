@@ -99,22 +99,22 @@ const Header = () => {
         {
           id: 51,
           title: "Scholarship in Australia",
-          url: "/",
+          url: "/scholarship/details",
         },
         {
           id: 52,
           title: "Scholarship in UK",
-          url: "/",
+          url: "/scholarship/details",
         },
         {
           id: 53,
           title: "Scholarship in USA",
-          url: "/",
+          url: "/scholarship/details",
         },
         {
           id: 54,
           title: "Scholarship in CANADA",
-          url: "/",
+          url: "/scholarship/details",
         },
       ],
     },

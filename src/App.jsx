@@ -46,6 +46,7 @@ const App = () => {
           <Route path="admission-support" element={<AdmissionSupport />} />
           <Route path="health-insurance" element={<HealthInsurance />} />
           <Route path="scholarship" element={<Scholarship />} />
+          <Route path="scholarship/details" element={<StudyInDestination />} />
           <Route path="terms-of-use" element={<TermsOfUse />} />
           <Route path="privacy-policy" element={<PrivacyPolicy />} />
           <Route path="contact-us" element={<ContactPage />} />
