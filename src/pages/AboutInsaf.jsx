@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../assets/about/about.webp";
+import about from "../assets/about/about.jpg";
 import AboutSection from "../components/about/AboutSection";
 import WhyChooseUs from "../components/WhyChooseUs";
 import MissionVision from "../components/about/MissionVision";

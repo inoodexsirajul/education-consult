@@ -1,6 +1,5 @@
 import { ArrowRight, Phone, GraduationCap } from "lucide-react";
 import destinationImg from "../assets/destination.webp";
-import detailimg from "../assets/destinations/detials1.webp";
 import livingCost from "../assets/destinations/living-cost.png";
 import uni1 from "../assets/partner/1.png";
 import uni2 from "../assets/partner/2.png";
@@ -179,7 +178,7 @@ export default function StudyInDestination() {
                 students seeking transformative educational experiences.
               </p>
             </div>
-            <img src={detailimg} alt="" />
+            {/* <img src={detailimg} alt="" /> */}
             <div className="mt-4">
               <h4 className="text-blue text-xl font-semibold font-mont">
                 Why Study in New Zealand?
