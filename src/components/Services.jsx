@@ -43,9 +43,8 @@ const Services = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left Side - Text */}
           <div className="order-2 lg:order-1 text-center lg:text-left">
-            <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              How INSAF Immigration Simplifies your
-              <span className="text-gold"> Study Abroad Journey?</span>
+            <h2 className="text-3xl lg:text-5xl font-bold text-blue leading-tight">
+              How INSAF Immigration Simplifies your Study Abroad Journey?
             </h2>
             <p className="mt-6 text-lg text-gray-600 leading-relaxed">
               Our services provide end-to-end assistance to study abroad
@@ -108,12 +107,12 @@ const ServiceCard = ({ icon: Icon, title, delay = "0", isCenter = false }) => {
       data-aos="fade-up"
       data-aos-delay={delay}
       className={`group relative bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 
-        w-full sm:w-80 lg:w-96 p-6 flex items-center justify-between cursor-pointer
+        w-full sm:w-80 lg:w-96 p-4 flex items-center justify-between cursor-pointer
         border border-gray-100 hover:border-[#c3a25d]/30
-        ${isCenter ? "ring-4 ring-[#c3a25d]/10 scale-105" : ""}`}
+        ${isCenter ? "ring-4 ring-gold/10 scale-105" : ""}`}
     >
       {/* Icon Background Circle */}
-      <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#c3a25d]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+      <div className="absolute inset-0 rounded-3xl bg-linear-to-br from-[#c3a25d]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
       <div className="flex items-center gap-5 z-10">
         <div
@@ -139,13 +138,13 @@ const ServiceCard = ({ icon: Icon, title, delay = "0", isCenter = false }) => {
           />
         </div>
 
-        <span className="text-lg lg:text-xl font-semibold text-gray-800 group-hover:text-[#283e77] transition-colors">
+        <span className="text-lg lg:text-xl font-semibold text-gray-800 group-hover:text-blue transition-colors">
           {title}
         </span>
       </div>
 
       {/* Arrow */}
-      <ArrowRight className="w-6 h-6 text-gray-400 group-hover:text-[#c3a25d] group-hover:translate-x-2 transition-all duration-300" />
+      <ArrowRight className="w-6 h-6 text-gray-400 group-hover:text-gold group-hover:translate-x-2 transition-all duration-300" />
     </div>
   );
 };

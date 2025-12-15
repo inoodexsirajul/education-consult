@@ -30,12 +30,12 @@ export default function AboutScholarshipInsaf() {
   ];
 
   return (
-    <section className="py-20 px-6 bg-gradient-to-b from-white to-gray-50">
+    <section className="py-20 px-6 bg-linear-to-b from-white to-gray-50">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-4">
-          <h3 className="text-3xl md:text-4xl font-bold text-[#283e77]">
-            About <span className="text-gold">INSAF Immigration</span>
+          <h3 className="text-3xl md:text-4xl font-bold text-blue">
+            About INSAF Immigration
           </h3>
         </div>
 

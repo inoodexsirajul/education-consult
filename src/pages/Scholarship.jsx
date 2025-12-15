@@ -26,14 +26,13 @@ export default function Scholarship() {
       <section className="py-24 px-6 bg-linear-to-b from-white to-slate-50 overflow-hidden">
         <div className="max-w-7xl mx-auto">
           {/* Header with Decorative Lines */}
-          <div className="text-center mb-16 relative bg-linear-to-b to-blue ">
+          <div className="text-center mb-16 relative   ">
             <div className="absolute inset-0 flex items-center justify-center opacity-10">
               <GraduationCap className="w-32 h-32 text-blue" />
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold text-blue mb-4 relative">
-              Explore Scholarships with
-              <span className="text-gold">INSAF Immigration</span>
+              Explore Scholarships with INSAF Immigration
             </h2>
             <p className="text-2xl font-semibold text-gray-800 mb-3">
               Your Trusted Partner for International Education

@@ -4,11 +4,11 @@ import Services from "../components/Services";
 import StudyDestinations from "../components/StudyDestinations";
 import WhyChooseUs from "../components/WhyChooseUs";
 import StudyAbroadSteps from "../components/StudyAbroadSteps";
-import StudyAbroadTimeline from "../components/StudyAbroadTimeline";
 import AwardsSection from "../components/AwardsSection";
 import SuccessGallery from "../components/SuccessGallery";
 import HomeBlogs from "../components/HomeBlogs";
 import CounselingSection from "../components/CounselingSection";
+import UpcomingEvents from "../components/UpcomingEvents";
 
 const Home = () => {
   return (
@@ -18,8 +18,9 @@ const Home = () => {
       <StudyDestinations />
       <StudyAbroadSteps />
       <AwardsSection />
+      <UpcomingEvents />
       <SuccessGallery />
-      <StudyAbroadTimeline />
+
       <WhyChooseUs />
       <HomeBlogs />
       <CounselingSection />

@@ -21,28 +21,28 @@ const steps = [
     title: "Document Assembly",
     desc: "Guidance on transcripts, recommendation letters, and all required paperwork.",
     icon: FileText,
-    color: "from-blue-600 to-[#283e77]",
+    color: "from-[#283e77] to-[#1e2d5a]",
   },
   {
     number: "03",
     title: "Application Guidance",
     desc: "Our experts will guide you through the application process and help you meet deadlines.",
     icon: GraduationCap,
-    color: "from-[#c3a25d] to-[#d4b86b]",
+    color: "from-[#283e77] to-[#1e2d5a]",
   },
   {
     number: "04",
     title: "Interview Coaching",
     desc: "Mock interviews and personalized tips to help you shine.",
     icon: Mic,
-    color: "from-purple-600 to-[#283e77]",
+    color: "from-[#283e77] to-[#1e2d5a]",
   },
   {
     number: "05",
     title: "Acceptance & Visa Aid",
     desc: "From offer letters to visa paperwork and pre-departure briefings.",
     icon: Plane,
-    color: "from-[#c3a25d] to-[#e6c97a]",
+    color: "from-[#283e77] to-[#1e2d5a]",
   },
 ];
 
@@ -53,8 +53,7 @@ const StudyAbroadSteps = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-4xl font-bold text-blue mb-4">
-            Study Abroad in Just{" "}
-            <span className="text-gold">5 Simple Steps</span>
+            Study Abroad in Just 5 Simple Steps
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             With PFEC Global by your side, you can make the whole process a

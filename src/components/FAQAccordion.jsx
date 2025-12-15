@@ -79,7 +79,7 @@ const FAQAccordion = () => {
             Our experts are waiting to help you take the next steps towards your
             dream.
           </p>
-          <button className="bg-red-600 font-mont hover:bg-red-700 text-white font-bold py-4 px-10 rounded-full text-lg shadow-lg transition-all duration-300 transform hover:scale-105 flex items-center gap-3 mx-auto">
+          <button className="bg-blue font-mont hover:bg-gold text-white font-bold py-4 px-10 rounded-full text-lg shadow-lg transition-all duration-300 transform hover:scale-105 flex items-center gap-3 mx-auto">
             Book a Free Consultation
             <span className="text-2xl">→</span>
           </button>

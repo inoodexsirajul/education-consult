@@ -18,6 +18,7 @@ import Accomodation from "./pages/services/Accomodation";
 import VisaService from "./pages/services/VisaService";
 import BlogSection from "./pages/BlogPage";
 import BlogDetails from "./pages/BlogDetails";
+import EventDetails from "./pages/EventDetails";
 
 const App = () => {
   function ScrollToTop() {
@@ -55,6 +56,7 @@ const App = () => {
           <Route path="scholarship/details" element={<StudyInDestination />} />
           <Route path="terms-of-use" element={<TermsOfUse />} />
           <Route path="privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="events/event-details" element={<EventDetails />} />
           <Route path="blogs" element={<BlogSection />} />
           <Route path="blogs/blog-details" element={<BlogDetails />} />
           <Route path="contact-us" element={<ContactPage />} />

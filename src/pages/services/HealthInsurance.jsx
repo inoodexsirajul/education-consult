@@ -25,7 +25,7 @@ const HealthInsurance = () => {
           <div className="absolute bottom-10 right-20 w-80 h-80 bg-gold/30 rounded-full blur-3xl" />
         </div>
 
-        <div className="relative max-w-7xl mx-auto px-6 pt-4">
+        <div className="relative container mx-auto px-6 pt-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left: Content */}
             <div className="text-white space-y-8">
@@ -95,7 +95,7 @@ const HealthInsurance = () => {
       <PartnersMarquee />
       {/* Why Choose PFEC for Admission Support? */}
       <section className="  py-24  ">
-        <div className="max-w-7xl mx-auto px-6 pt-4">
+        <div className="container mx-auto px-6 pt-4">
           <div className="grid grid-cols-2 gap-4">
             {/* left content  */}
             <div>

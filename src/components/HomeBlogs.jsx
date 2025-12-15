@@ -36,12 +36,12 @@ const insights = [
 
 export default function HomeBlogs() {
   return (
-    <section className="py-20 px-6 bg-gradient-to-b from-slate-50 to-white">
+    <section className="py-20 px-6 bg-gold/10">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Insights to <span className=" text-gold">Keep You Ahead</span>
+            Insights to Keep You Ahead
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Explore articles packed with practical advice, trends, and expert

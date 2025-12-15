@@ -89,13 +89,26 @@ export default function VideoTestimonials() {
 
             {/* YouTube Player - Videos play instantly */}
             <div className="relative pt-[56.25%] rounded-2xl overflow-hidden shadow-2xl">
-              <iframe
-                src={`https://www.youtube.com/embed/${selectedVideo}?autoplay=1`}
+              {/* <iframe
+               src={`https://www.youtube.com/embed/${selectedVideo}?autoplay=1`}
+                src={`https://youtu.be/HWuDdsmZmv8?si=3-9KCmRgZuXtyPIM`}
                 title="Student Testimonial"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 className="absolute top-0 left-0 w-full h-full border-2 border-gold rounded-2xl"
-              ></iframe>
+              ></iframe> */}
+              <div className="absolute top-0 left-0 w-full h-full border-2 border-gold rounded-2xl">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/HWuDdsmZmv8?si=d97Qel6bFBkeb0va"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>

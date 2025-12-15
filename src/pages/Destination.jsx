@@ -3,7 +3,6 @@ import WhyStudyAbroad from "../components/destination/WhyStudyAbroad";
 import FactorsToConsider from "../components/destination/FactorsToConsider";
 import dest1 from "../assets/destinations/australia.png";
 import dest2 from "../assets/destinations/canada.png";
-import dest3 from "../assets/destinations/detials1.webp";
 import dest4 from "../assets/destinations/indonesia.webp";
 import dest5 from "../assets/destinations/ireland.png";
 import dest6 from "../assets/destinations/uk.png";
@@ -11,12 +10,12 @@ import dest7 from "../assets/destinations/usa.png";
 const destinations = [
   { country: "Australia", landmark: dest1, delay: 0 },
   { country: "UK", landmark: dest2, delay: 100 },
-  { country: "USA", landmark: dest3, delay: 200 },
+  { country: "USA", landmark: dest5, delay: 200 },
   { country: "Canada", landmark: dest4, delay: 300 },
   { country: "Ireland", landmark: dest5, delay: 0 },
   { country: "New Zealand", landmark: dest7, delay: 100 },
   { country: "Japan", landmark: dest6, delay: 200 },
-  { country: "Malaysia", landmark: dest3, delay: 300 },
+  { country: "Malaysia", landmark: dest5, delay: 300 },
 ];
 
 export default function Destination() {
@@ -31,8 +30,7 @@ export default function Destination() {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold text-blue mb-4 relative">
-              Study Abroad with{" "}
-              <span className="text-gold">INSAF Immigration</span>
+              Study Abroad with INSAF Immigration
             </h2>
             <p className="text-2xl font-semibold text-gray-800 mb-3">
               Your Trusted Partner for International Education

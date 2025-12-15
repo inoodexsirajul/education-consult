@@ -34,7 +34,7 @@ const destinations = [
 
 const StudyDestinations = () => {
   return (
-    <section className="py-30 lg:py-28 bg-linear-to-b from-white via-blue-50/30 to-white overflow-hidden">
+    <section className="py-30 lg:py-28 bg-linear-to-b from-white to-[#283e77]/5  overflow-hidden">
       <div className="container mx-auto px-6 lg:px-8 max-w-7xl">
         {/* Heading */}
         <div className="text-center mb-16">

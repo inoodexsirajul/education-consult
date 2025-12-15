@@ -36,11 +36,8 @@ const AwardsSection = () => {
       <div className="container mx-auto px-6 lg:px-8 max-w-7xl">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl lg:text-5xl font-bold mb-6">
-            <span className="text-blue">Awards &</span>{" "}
-            <span className="text-transparent bg-clip-text bg-linear-to-r from-[#c3a25d] to-[#d4b86b]">
-              Achievements
-            </span>
+          <h2 className="text-5xl lg:text-4xl text-blue font-bold mb-6">
+            Awards & Achievements
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Recognized by the world's top universities for excellence in student

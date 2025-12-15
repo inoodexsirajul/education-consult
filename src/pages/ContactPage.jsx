@@ -4,11 +4,12 @@ import StudyAbroadSteps from "../components/StudyAbroadSteps";
 import AppointmentStepsSection from "../components/contacts/AppointmentStepsSection";
 import SuccessGallery from "../components/SuccessGallery";
 import Form from "../components/form/Form";
+import ContactSection from "../components/ContactSection";
 
 const ContactPage = () => {
   return (
     <>
-      <section className="relative  pb-10 bg-linear-to-b pt-20 from-blue/50 to-white overflow-hidden">
+      {/* <section className="relative  pb-10 bg-linear-to-b pt-20 from-blue/50 to-white overflow-hidden">
         <div className="relative container mx-auto px-6 pt-8 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-6 ">
             <div className="pt-15">
@@ -23,12 +24,12 @@ const ContactPage = () => {
                 get in touch by:
               </p>
             </div>
-
-            {/* form section  */}
+ 
             <Form />
           </div>
         </div>
-      </section>
+      </section> */}
+      <ContactSection />
       <AppointmentStepsSection />
       <GlobalOfficesSection />
       <StudyAbroadSteps />

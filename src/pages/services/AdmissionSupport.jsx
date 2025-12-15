@@ -4,6 +4,7 @@ import { ArrowRight, GraduationCap } from "lucide-react";
 import service1 from "../../assets/services/service1.png";
 import Form from "../../components/form/Form";
 import service2 from "../../assets/services/service2.jpg";
+import service4 from "../../assets/services/service4.jpg";
 import service3 from "../../assets/services/service3.jpg";
 import UniversitySlider from "../../components/srvices/UniversitySlider";
 import StudyAbroadSteps from "../../components/StudyAbroadSteps";
@@ -87,14 +88,14 @@ const AdmissionSupport = () => {
           </div>
         </div>
       </section>
-      {/* Why Choose PFEC for Admission Support? */}
+      {/* Why Choose INSAF for Admission Support? */}
       <section className="  py-24  ">
         <div className="max-w-7xl mx-auto px-6 pt-4">
           <div className="grid grid-cols-2 gap-4">
             {/* left content  */}
             <div>
               <h4 className="text-blue text-lg font-mont font-semibold">
-                Why Choose PFEC for Admission Support?
+                Why Choose INSAF for Admission Support?
               </h4>
               <img src={service1} alt="" />
               <div className="mt-4">
@@ -108,19 +109,19 @@ const AdmissionSupport = () => {
                 </p>
                 <p className="text-sm text-black font-normal font-mont mt-2">
                   Every year thousands of students in Bangladesh aim to start
-                  their careers abroad. In this respect, PFEC Global has
+                  their careers abroad. In this respect, INSAF Immigration has
                   established themselves as the best admission consultants in
-                  Bangladesh. At PFEC Global, we perceive that students often
-                  feel apprehensive about the surcharge of information available
-                  on the internet while preparing for a new journey. Hence, with
-                  over a decade of experience and professional acknowledgment,
-                  our dedicated team can always make the entire admission and
-                  visa application process hassle-free for the students.
-                  Ultimately, we are the official representative of over 550+
-                  universities, colleges, and institutions that have optimum
-                  prestige worldwide with phenomenal courses, ethos, culture,
-                  course delivery format, cost, international student support,
-                  work opportunities, diversity, and location.
+                  Bangladesh. At INSAF Immigration, we perceive that students
+                  often feel apprehensive about the surcharge of information
+                  available on the internet while preparing for a new journey.
+                  Hence, with over a decade of experience and professional
+                  acknowledgment, our dedicated team can always make the entire
+                  admission and visa application process hassle-free for the
+                  students. Ultimately, we are the official representative of
+                  over 550+ universities, colleges, and institutions that have
+                  optimum prestige worldwide with phenomenal courses, ethos,
+                  culture, course delivery format, cost, international student
+                  support, work opportunities, diversity, and location.
                 </p>
               </div>
             </div>
@@ -161,19 +162,19 @@ const AdmissionSupport = () => {
                 </p>
                 <p className="text-sm text-black font-normal font-mont mt-2">
                   Every year thousands of students in Bangladesh aim to start
-                  their careers abroad. In this respect, PFEC Global has
+                  their careers abroad. In this respect, INSAF Immigration has
                   established themselves as the best admission consultants in
-                  Bangladesh. At PFEC Global, we perceive that students often
-                  feel apprehensive about the surcharge of information available
-                  on the internet while preparing for a new journey. Hence, with
-                  over a decade of experience and professional acknowledgment,
-                  our dedicated team can always make the entire admission and
-                  visa application process hassle-free for the students.
-                  Ultimately, we are the official representative of over 550+
-                  universities, colleges, and institutions that have optimum
-                  prestige worldwide with phenomenal courses, ethos, culture,
-                  course delivery format, cost, international student support,
-                  work opportunities, diversity, and location.
+                  Bangladesh. At INSAF Immigration, we perceive that students
+                  often feel apprehensive about the surcharge of information
+                  available on the internet while preparing for a new journey.
+                  Hence, with over a decade of experience and professional
+                  acknowledgment, our dedicated team can always make the entire
+                  admission and visa application process hassle-free for the
+                  students. Ultimately, we are the official representative of
+                  over 550+ universities, colleges, and institutions that have
+                  optimum prestige worldwide with phenomenal courses, ethos,
+                  culture, course delivery format, cost, international student
+                  support, work opportunities, diversity, and location.
                 </p>
               </div>
             </div>
@@ -201,25 +202,25 @@ const AdmissionSupport = () => {
                 </p>
                 <p className="text-sm text-black font-normal font-mont mt-2">
                   Every year thousands of students in Bangladesh aim to start
-                  their careers abroad. In this respect, PFEC Global has
+                  their careers abroad. In this respect, INSAF Immigration has
                   established themselves as the best admission consultants in
-                  Bangladesh. At PFEC Global, we perceive that students often
-                  feel apprehensive about the surcharge of information available
-                  on the internet while preparing for a new journey. Hence, with
-                  over a decade of experience and professional acknowledgment,
-                  our dedicated team can always make the entire admission and
-                  visa application process hassle-free for the students.
-                  Ultimately, we are the official representative of over 550+
-                  universities, colleges, and institutions that have optimum
-                  prestige worldwide with phenomenal courses, ethos, culture,
-                  course delivery format, cost, international student support,
-                  work opportunities, diversity, and location.
+                  Bangladesh. At INSAF Immigration, we perceive that students
+                  often feel apprehensive about the surcharge of information
+                  available on the internet while preparing for a new journey.
+                  Hence, with over a decade of experience and professional
+                  acknowledgment, our dedicated team can always make the entire
+                  admission and visa application process hassle-free for the
+                  students. Ultimately, we are the official representative of
+                  over 550+ universities, colleges, and institutions that have
+                  optimum prestige worldwide with phenomenal courses, ethos,
+                  culture, course delivery format, cost, international student
+                  support, work opportunities, diversity, and location.
                 </p>
               </div>
             </div>
             {/* right content  */}
             <div className="w-full">
-              <img src={service2} alt="" className="w-full h-auto" />
+              <img src={service4} alt="" className="w-full h-auto" />
             </div>
           </div>
         </div>
@@ -250,19 +251,19 @@ const AdmissionSupport = () => {
                 </p>
                 <p className="text-sm text-black font-normal font-mont mt-2">
                   Every year thousands of students in Bangladesh aim to start
-                  their careers abroad. In this respect, PFEC Global has
+                  their careers abroad. In this respect, INSAF Immigration has
                   established themselves as the best admission consultants in
-                  Bangladesh. At PFEC Global, we perceive that students often
-                  feel apprehensive about the surcharge of information available
-                  on the internet while preparing for a new journey. Hence, with
-                  over a decade of experience and professional acknowledgment,
-                  our dedicated team can always make the entire admission and
-                  visa application process hassle-free for the students.
-                  Ultimately, we are the official representative of over 550+
-                  universities, colleges, and institutions that have optimum
-                  prestige worldwide with phenomenal courses, ethos, culture,
-                  course delivery format, cost, international student support,
-                  work opportunities, diversity, and location.
+                  Bangladesh. At INSAF Immigration, we perceive that students
+                  often feel apprehensive about the surcharge of information
+                  available on the internet while preparing for a new journey.
+                  Hence, with over a decade of experience and professional
+                  acknowledgment, our dedicated team can always make the entire
+                  admission and visa application process hassle-free for the
+                  students. Ultimately, we are the official representative of
+                  over 550+ universities, colleges, and institutions that have
+                  optimum prestige worldwide with phenomenal courses, ethos,
+                  culture, course delivery format, cost, international student
+                  support, work opportunities, diversity, and location.
                 </p>
               </div>
             </div>

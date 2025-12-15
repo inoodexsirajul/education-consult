@@ -53,13 +53,10 @@ const UniversitySlider = () => {
 
   return (
     <section className="py-16 bg-blue/20">
-      <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-4xl md:text-4xl font-bold text-center text-blue mb-2">
-          Study at a World Renowned Institution
+      <div className="container mx-auto px-6">
+        <h2 className="text-4xl md:text-4xl font-bold text-center text-blue mb-6 max-w-2xl mx-auto">
+          Study at a World Renowned Institution with Expert Guidance
         </h2>
-        <h3 className="text-2xl md:text-3xl font-semibold text-center text-gold mb-12">
-          with Expert Guidance
-        </h3>
 
         <Swiper
           modules={[Navigation, Autoplay]}
